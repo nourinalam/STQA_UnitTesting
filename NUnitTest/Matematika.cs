@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace NUnitTest
+{
+    public class Matematika
+    {
+
+        public string User(string name)
+        {
+            return name;
+        }
+
+        public int Tambah(int a, int b)
+        {
+            return a + b;
+        }
+
+        public int Kurang(int a, int b)
+        {
+            return a - b;
+        }
+    }
+}
